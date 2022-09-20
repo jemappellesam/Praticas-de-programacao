@@ -1,8 +1,6 @@
 package segundo.trabalho;
-
-import java.awt.*;
 import java.util.Scanner;
-import java.lang.Thread;
+
 
 public class SegundoTrabalho {
     public static void menu() {
