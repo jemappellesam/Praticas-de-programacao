@@ -22,39 +22,39 @@ public class SegundoTrabalho {
 
             if (menu == 1) {
                 System.out.println("Informe a base do triângulo:");
-                int base = scan.nextInt();
+                double base = scan.nextInt();
                 System.out.println("Informa a altura do triângulo: ");
-                int altura = scan.nextInt();
-                int area = (base * altura) / 2;
+                double altura = scan.nextInt();
+                double area = (base * altura) / 2;
                 System.out.println("A área do triângulo é igual a: " + area);
             } else if (menu == 2) {
 
                 System.out.println("Informe a base do quadrado: ");
-                int baseQ = scan.nextInt();
+                double baseQ = scan.nextInt();
                 System.out.println("Informe a altura do quadrado: ");
-                int alturaQ = scan.nextInt();
-                int areaQ = baseQ * alturaQ;
+                double alturaQ = scan.nextInt();
+                double areaQ = baseQ * alturaQ;
                 System.out.println("A área do quadrado é igual a: " + areaQ);
             } else if (menu == 3) {
 
                 System.out.println("Informe o lado do pentágono: ");
-                int ladP = scan.nextInt();
-                int perimetro = (ladP * 5);
+                double ladP = scan.nextInt();
+                double perimetro = (ladP * 5);
                 System.out.println("Informe a apótema do pentágono: ");
-                int apotemaP = scan.nextInt();
-                int areaP = (perimetro * apotemaP) / 2;
+                double apotemaP = scan.nextInt();
+                double areaP = (perimetro * apotemaP) / 2;
                 System.out.println("A área do pentágono regular de lado " + ladP + " é: " + areaP);
 
 
             } else if (menu == 4) {
 
                 System.out.println("Informe a base maior do trapézio: ");
-                int baseMaior = scan.nextInt();
+                double baseMaior = scan.nextInt();
                 System.out.println("Informe a base menor do trapézio: ");
-                int baseMenor = scan.nextInt();
+                double baseMenor = scan.nextInt();
                 System.out.println("Informe a altura do trapézio: ");
-                int alturat = scan.nextInt();
-                int areat = ((baseMaior + baseMenor) * alturat) / 2;
+                double alturat = scan.nextInt();
+                double areat = ((baseMaior + baseMenor) * alturat) / 2;
                 System.out.println("A área do trapézio é: " + areat);
             }
 
